@@ -16,9 +16,11 @@ analysis: This folder contains Jupyter notebooks and python scripts used for dat
 Data Description
 The data in the GTD consists of the following variables:
 
-"iyear: The year in which the attack took place."
-"imonth: The month in which the attack took place."
-"iday: The day on which the attack took place."
+iyear: The year in which the attack took place.
+
+imonth: The month in which the attack took place.
+
+iday: The day on which the attack took place.
 
 latitude: The latitude of the location where the attack took place.
 
