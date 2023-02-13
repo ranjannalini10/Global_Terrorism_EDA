@@ -1,4 +1,30 @@
 # Global_Terrorism_EDA
-The Global Terrorism Database is a  database of terrorism attacks and incidents that have occurred around the world since 1970 to 2017. It includes information on over 180,000 incidents, including details on the date and location of the attack, the weapons used, the target, the group responsible, and the number of casualties.It is a valuable resource to find the patterns and trends of terrorism around the world. By analyzing this data, one can gain insights into the motivations, tactics, and targets of terrorist groups, as well as the effectiveness of counter-terrorism measures. Additionally, the data can be used to inform security planning and allocate resources more effectively.
+Global Terrorism Database (GTD)
+The Global Terrorism Database (GTD) is an open-source database that tracks terrorist attacks around the world from 1970 to the present. The database contains comprehensive information on more than 170,000 terrorist attacks, including the date and location of the attack, the number of casualties, and information on the attackers and their motives.
 
-Iraq – the country has faced staggering 24636 number of such attacks between 1970 to 2017 which accounted for 13.61% of terrorism attacks in the world. Attacks were more during 2014 and then in 2015. When compared to attacks from 1970 onwards, the last 6 years scored a maximum. But from 2014 onwards count started decreasing. Iraq dominates all the countries, and it has the highest number of attacks and then Pakistan, Afghanistan, and India follow it. Middle East and North Africa and South Asia are the two regions who encountered the greatest number of terror attacks since 1970. For most of the attacks, the target is Private Citizens & property and the next is on Military leads. Most of the attacks were through either Bombing or Explosion. Most used known Attack tactic by terror group is 'Insurgency/Guerrilla Action'. Where the majority of tactic is random or just unknown. 'Islamic State of Iraq and the Levant (ISIL)' were on a killing spree where they murdered 38,793 personal since 1970, Most on compared to other groups. Taliban is again on second place with 29,564 kills. 'Islamic State of Iraq & the Levant (ISIL)' and 'Taliban' are two most active Terrorist groups in the last 5 years. From Correlation Matrix, We concluded that column elements 'natlty1' and 'country' are have strong relationship which is evident that the Country is most affected by its own population and social disturbances most likely due to Civil war or local terror groups. Srinagar which is in Jammu and Kashmir has been the centre of the dispute and terror attacks in India. Seems like Terrorist do like 'Explosives' very much like this is the most used Weapon category across the world terror groups. Private Citizens and Property related incidents are most common target for Hostage/Kidnapping incidents. As per analysis, You have about 22.18% chance to get out of kidnapping situation without any hard, but 18.46% bad luck that you won't.
+Repository Contents
+The repository contains the following files and folders:
+
+GTD_data.csv: This is the main data file, containing information on all the terrorist attacks recorded in the database.
+
+README.md: This file provides an overview of the repository and its contents.
+
+analysis: This folder contains Jupyter notebooks and python scripts used for data analysis and visualization of the GTD data.
+
+Data Description
+The data in the GTD consists of the following variables:
+
+iyear: The year in which the attack took place.
+imonth: The month in which the attack took place.
+iday: The day on which the attack took place.
+latitude: The latitude of the location where the attack took place.
+longitude: The longitude of the location where the attack took place.
+success: Indicates whether the attack was successful (1) or unsuccessful (0).
+attacktype1: The type of attack, such as bombing, armed assault, kidnapping, etc.
+targtype1: The type of target, such as government, military, civilian, etc.
+weaptype1: The type of weapon used in the attack.
+nkill: The number of people killed in the attack.
+nkillter: The number of terrorists killed in the attack.
+ransom: Whether ransom was demanded in the attack.
+
+
